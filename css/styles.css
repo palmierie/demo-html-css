@@ -1,5 +1,5 @@
 body{
-    background-color: darkslategrey;
+    background-color: darkslateblue;
 }
 
 nav {
@@ -50,4 +50,19 @@ footer{
     color: #FFF;
     text-align: center;
     clear: both;
+}
+
+.flex-container{
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	background-color: slategray;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.flex-item{
+    background-color: lightpink;
+		width: 30%;
+		margin: 10px;
 }
